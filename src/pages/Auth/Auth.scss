@@ -20,6 +20,22 @@
         }
     }
 
+    &__register-link {
+        text-align: center;
+        display: block;
+        font-size: 16px;
+        letter-spacing: 0.1px;
+        color: #ADADAD;
+    }
+
+    .button {
+        text-transform: uppercase;
+        font-weight: 500;
+        font-size: 14px;
+        letter-spacing: 0.1px;
+        width: 100%;
+    }
+
     .block {
         width: 430px;
     }
