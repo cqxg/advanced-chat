@@ -14,7 +14,7 @@ class LoginForm extends Component {
                 </div>
                 <Block>
                     <Form onSubmit={this.handleSubmit} className="login-form">
-                        <Form.Item validateStatus='success' hasFeedback>
+                        <Form.Item hasFeedback>
                             <Input
                                 prefix={
                                     <Icon type="user" style={{ color: 'rgba(0,0,0,.25)' }} />
@@ -22,9 +22,8 @@ class LoginForm extends Component {
                                 placeholder="Username"
                                 size='large'
                             />,
-                        )}
                         </Form.Item>
-                        <Form.Item validateStatus='success' hasFeedback>
+                        <Form.Item hasFeedback>
                             <Input size='large'
                                 prefix={
                                     <Icon type="lock" style={{ color: 'rgba(0,0,0,.25)' }} />
