@@ -1,4 +1,5 @@
 @import '~antd/dist/antd.css';
+@import '~reset-css';
 
 body, 
 html, 
@@ -6,4 +7,8 @@ html,
 .wrapper {
     height: 100%;
     color: #202020;
+    font-family: -apple-system, BlinkMacSystemFont, 
+    'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', 'Helvetica Neue', 
+    Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    font-size: 14px;
 };

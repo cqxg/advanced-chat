@@ -13,7 +13,7 @@ const Message = ({ avatar, user, text, date }) => (
             <div className='message__bubble'>
                 <p className='message__text'>{text}</p>
             </div>
-            <span className='message__date'>Dxthf? d 12^31</span>
+            <span className='message__date'>21:31 Jun 2019</span>
         </div>
     </div>
 );
