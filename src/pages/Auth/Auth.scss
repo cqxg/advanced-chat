@@ -1,4 +1,6 @@
-.auth {
+$blockName: ".auth";
+
+#{$blockName} {
     display: flex;
     justify-content: center;
     align-items: center;

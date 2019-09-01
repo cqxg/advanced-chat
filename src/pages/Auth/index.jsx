@@ -5,11 +5,13 @@ import {LoginForm, RegisterForm } from 'modules';
 
 import './Auth.scss';
 
+const blockName = 'auth';
+
 const Auth = () => (
-    <section className='auth'>
-        <div className="auth__content">
-            <Route exact path={['/', '/login']} component={LoginForm} />
-            <Route exact path='/register' component={RegisterForm} />
+    <section className={blockName}>
+        <div className={`${blockName}__content`}>
+            <Route exact path={['/', '/login']} component={() => (<LoginForm blockName={blockName}/>)} />
+            <Route exact path='/register' component={() => (<RegisterForm blockName={blockName}/>)} />
         </div>
     </section>
 );
