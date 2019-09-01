@@ -1,12 +1,15 @@
 import React from 'react';
-import { Route } from 'react-router-dom';
+import { Message } from 'components';
 
 import './Home.scss';
 
 
 const Home = () => (
     <section className='home'>
-        <h1>Hello!</h1>
+        <Message avatar='https://i.pinimg.com/236x/af/bb/82/afbb828cb5350d267e6dbeba042e85eb--anonymous-mask-guy-fawkes.jpg' 
+        text='Negjk.,jq hfyljvysq ntrcn'
+        date='Sun Apr 20199 21^30'
+        />
     </section>
 );
 
