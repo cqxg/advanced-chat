@@ -30,6 +30,28 @@ $blockName: ".auth";
         color: #ADADAD;
     }
 
+    &__success-block {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        height: 400px;
+
+        svg {
+            width: 48px;
+            height: 48px;
+        }
+
+        h2 {
+            margin-top: 10px;
+        }
+
+        p {
+            color: #ADADAD;
+        }
+    }
+
     .button {
         text-transform: uppercase;
         font-weight: 500;
