@@ -7,8 +7,8 @@ import classNames from 'classnames';
 
 import './Message.scss'
 
-const Message = ({ avatar, user, text, date }) => (
-    <div className='message'>
+const Message = ({ avatar, user, text, date, isMe }) => (
+    <div className={classNames('message', {'message--isme' : isMe})}>
         <div className='message__avatar'>
             <img src={avatar} alt={`Avatar ${user.fullname}`} />
         </div>
